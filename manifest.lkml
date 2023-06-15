@@ -1,19 +1,19 @@
 constant: CONNECTION_NAME {
-  value: "cortex"
+  value: "poc_sap_cortex"
   export: override_required
 }
 
 constant: GCP_PROJECT {
-  value: "GCP Project Name"
+  value: "brq-poc-cortex"
   export: override_required
 }
 
 constant: REPORTING_DATASET {
-  value: "Reporting Dataset Name"
+  value: "BRQ_SAP_ECC_REPORTING"
   export: override_required
 }
 
 constant: CLIENT {
-  value: "Client ID"
+  value: "800"
   export: override_required
 }
